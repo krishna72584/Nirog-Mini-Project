@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#42405f"               # Deep purple for buttons and highlights
+backgroundColor = "#ffffff"            # Clean white background
+secondaryBackgroundColor = "#f4f4f8"   # Soft grey for sections
+textColor = "#222222"                  # Darker grey for better contrast
+font = "monospace"                     # Modern and clean font
