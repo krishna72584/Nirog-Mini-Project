@@ -17,9 +17,8 @@ def resize_image(image_path, max_width=600):
     resized_image = image.resize((max_width, new_height))  # Remove Image.ANTIALIAS
     return resized_image
 
-
 # Configure GenAI Key
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key="AIzaSyAi78JTbfUWkHa96gnzOJlgEhfaWgMIhis")
 
 def get_gemini_response(input_prompt, image):
     model = genai.GenerativeModel('gemini-1.5-flash')
